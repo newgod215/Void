@@ -5,7 +5,12 @@ def clanName():
     clanName = ['vage' , 'treed' , 'yaguwa' , 'slin']
     random_spin =  random.shuffle(clanName)
 
+    print(random.shuffle(0, 4))
+    print(random.shuffle(0, 7))
+    print(random.shuffle(0, 2))
+
     print('random.shuffle'+ str(random_spin) + 'you got' + str(clanName))
+   
 
 def powersystem():
     stat_points = ['vitality' , 'strength' , 'weapon']
