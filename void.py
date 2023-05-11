@@ -10,7 +10,8 @@ def clanName():
     print(random.shuffle(0, 2))
 
     print('random.shuffle'+ str(random_spin) + 'you got' + str(clanName))
-   
+  
+    #player will be able to spin in this clanName generator for a random clanName
 
 def powersystem():
     stat_points = ['vitality' , 'strength' , 'weapon']
@@ -59,9 +60,9 @@ print('clanName' , 'powersystem' , 'travel' , 'rest' , 'hunt' , 'status_bag')
 
 #User will get a in game note telling the user how to play the game
 
-print('welcome to the void follow the arrow to the cave')
+print_in game note('welcome to the void follow the arrow to the cave')
 
 def runGame():
-    play = ('enter world')
+    rungame = ('play')
     
-    print (play)
+    print (rungame)
