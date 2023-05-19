@@ -3,7 +3,7 @@ import datetime
 
 #player will be able to spin in this clanName generator for a random clanName
 def clanName():
-    clanName = ['vage' , 'treed' , 'yaguwa' , 'slin']
+    clanName = ['CN-vage' , 'CN-treed' , 'CN-yaguwa' , 'CN-slin']
     clan_generator = random.randint(0, 3)
 
     return clanName[clan_generator]
@@ -19,7 +19,7 @@ def powersystem():
         #new_stat = stat_generator('x5')
 
     
-    print(" you gained " , str(stat_points) , "plus point" , str(stat_increase) , "increased points" , (stat_generator) , "random points")
+    print("you gained " , str(stat_points) + "plus point" , str(stat_increase) + "increased points" , str(stat_generator) , "random points")
 
 
 
